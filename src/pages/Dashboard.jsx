@@ -16,7 +16,7 @@ export default function Dashboard() {
           <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: 'var(--primary-color)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', margin: '0 auto 1rem text-align: center' }}>
             JD
           </div>
-          <h3>John Doe</h3>
+          <h3>Brian Ombuya</h3>
           <p style={{ color: 'var(--text-muted)' }}>Student</p>
         </div>
         <nav style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
