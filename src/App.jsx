@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import DocumentDetails from './pages/DocumentDetails';
 import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/document/:id" element={<DocumentDetails />} />
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </main>
         {/* Simple Footer */}

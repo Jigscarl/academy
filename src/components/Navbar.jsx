@@ -37,7 +37,7 @@ export default function Navbar() {
           <Link to="/catalog" className={`nav-link-custom ${isActive('/catalog')}`}>Products</Link>
           <a href="#" className="nav-link-custom">Testimonials</a>
           <Link to="/login" className="nav-link-custom">Login</Link>
-          <a href="#" className="nav-link-custom">Contact Us</a>
+          <Link to="/contact" className={`nav-link-custom ${isActive('/contact')}`}>Contact Us</Link>
         </div>
 
         {/* Mobile Menu Toggle Button (Right Side) */}
@@ -57,7 +57,7 @@ export default function Navbar() {
             <Link to="/about" className={`nav-link-custom ${isActive('/about')}`} onClick={closeMenu}>About Us</Link>
             <Link to="/catalog" className={`nav-link-custom ${isActive('/catalog')}`} onClick={closeMenu}>Products</Link>
             <a href="#" className="nav-link-custom" onClick={closeMenu}>Testimonials</a>
-            <a href="#" className="nav-link-custom" onClick={closeMenu}>Contact Us</a>
+            <Link to="/contact" className={`nav-link-custom ${isActive('/contact')}`} onClick={closeMenu}>Contact Us</Link>
             <Link to="/login" className="nav-link-custom" onClick={closeMenu}>Login</Link>
           </div>
         </div>
