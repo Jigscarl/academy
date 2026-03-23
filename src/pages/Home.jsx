@@ -11,7 +11,12 @@ export default function Home() {
         backgroundPosition: 'center', 
         position: 'relative',
         color: 'white', 
-        padding: '5rem 0 8rem 0', 
+        minHeight: 'calc(100vh - 4rem)',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '2rem 1rem', 
         textAlign: 'center' 
       }}>
         {/* Dark overlay */}
@@ -35,29 +40,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Statistics / Enticing Info Section */}
-      <section style={{ padding: '4rem 0', backgroundColor: 'var(--card-bg)' }}>
-        <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', textAlign: 'center' }}>
-            <div>
-              <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--primary-color)', marginBottom: '0.5rem' }}>10K+</div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>Active Students & Teachers</p>
-            </div>
-            <div>
-              <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--success-color)', marginBottom: '0.5rem' }}>A</div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>Average Student Improvement</p>
-            </div>
-            <div>
-              <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--warning-color)', marginBottom: '0.5rem' }}>5K+</div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>Curated CBC & 8-4-4 Materials</p>
-            </div>
-            <div>
-              <div style={{ fontSize: '3rem', fontWeight: 'bold', color: '#8b57a5', marginBottom: '0.5rem' }}>100%</div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>Digital, Instant Delivery</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* How it Works Section */}
       <section style={{ padding: '5rem 0', backgroundColor: 'var(--bg-color)' }}>

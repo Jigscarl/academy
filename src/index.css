@@ -87,8 +87,10 @@ h3 { font-size: 1.5rem; font-weight: 600; }
 .navbar {
   background: linear-gradient(90deg, #626bdb, #8b57a5);
   border-bottom: none;
-  position: relative;
-  z-index: 50;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
   color: white;
 }
 
